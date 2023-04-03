@@ -1,3 +1,6 @@
+main {
+    display: flex;
+}
 .contenedor {
     display: flex;
     justify-content: center;
@@ -39,7 +42,7 @@ a {
     padding: 30px;
 }
 
-.datos input{
+input{
     border-radius: 20px;
     border: solid #C4C4C4 1px;
     margin-left: 15px;
@@ -49,5 +52,15 @@ a {
 }
 
 .boton {
-    margin-top: 200px;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: #E21982;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
 }
+
