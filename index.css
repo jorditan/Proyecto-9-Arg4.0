@@ -51,6 +51,7 @@ input{
     width: 300px;
 }
 
+
 .boton {
     text-align: center;
     width: 300px;
@@ -64,3 +65,7 @@ input{
     font-weight: 700;
 }
 
+
+::placeholder {
+    padding: 13px;
+}
