@@ -1,0 +1,110 @@
+main {
+    display: center ;
+}
+
+.container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./ondas.svg);
+    height: 100vh;;
+    max-height: 1200px;
+    max-width: 1100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: #22193F;
+    margin: 0 auto;
+}
+
+img {
+    height: 100%;
+    width: 55%;
+    display: flexbox;
+    align-self: center;
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 55%;
+    display: flex;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #22193F;
+    padding-bottom: 30px;
+    text-align: start;
+    
+}
+
+a {
+    color: #E21982;
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.datos input{
+    border-radius: 20px;
+    border: solid #C4C4C4 1px;
+    align-self: center;
+    margin-top: 10px;
+    height: 35px;
+    width: 75%;
+    font-size: 16px;
+}
+
+button {
+    align-self: start;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    width: 75%;
+    background-color: #E21982;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .side-image {
+        border-radius: 10px 10px 0 0;
+    }
+    img {
+        width: 77%;
+        position: absolute;
+        top: 50px;
+        height: 25%;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-top: 8%;
+    }
+    .formulario {
+        margin-top: 40%;
+        height: 50%;
+        width: 81%;
+    }
+    .text {
+        position: absolute;
+        top: 70%;
+        text-align: center;
+    }
+    .text p,i {
+        font-size: 17px;
+    }
+    .row {
+        max-width: 420px;
+        width: 100%;
+    }
+}
