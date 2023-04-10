@@ -1,0 +1,149 @@
+
+body{
+    background: #22193F;
+}
+.fondo{
+    
+    background: #22193F;
+    padding: 0 20px 0 20px;
+
+    background-image: url("./Imagenes/ondas\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row{
+    width: 900px;
+    height: 450px; 
+    background: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+.imagen-izquierda{
+    background-image: url("./imagenes/img-login.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.texto{
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.derecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input-box{
+    width: 380px;
+    box-sizing: border-box;
+}
+.input-box header{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    text-align:top;
+    margin-bottom: 50px;
+    font-size: 28px;
+
+    color: #22193F;
+}
+
+.casilla-input{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+.input{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid  #C4C4C4;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    color: #40414a;
+}
+.contraseña{
+    margin-bottom: -2px;
+}
+.olvidaste{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    font-size: small;
+    margin-bottom: 50px;
+}
+span a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding-right: 15px;
+    font-weight: 700;
+    color: #E21982;
+    text-decoration: underline;
+    
+}
+
+.ingresar{
+    
+    border: none;
+    
+    height: 40px;
+    color: white;
+    background: #E21982;
+    border-radius: 40px;
+    
+}
+
+@media (max-width: 576px){
+    .row {
+        width: 50vh;
+        height: 55vh;
+    }
+
+    .imagen-izquierda {
+        height: 10vh;
+        
+    }
+
+}
+
+@media (max-width: 456px){
+    .row {
+        width: 40vh;
+        height: 55vh;
+    }
+}
+
+
+@media (max-height: 645px){
+    .row {
+        width: 50vh;
+        height: 70vh;
+    }
+}
+
+
+
+
+
